@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+  assetPrefix: '/docs-static',
   turbopack: {
     rules: {
       "*.css": {
